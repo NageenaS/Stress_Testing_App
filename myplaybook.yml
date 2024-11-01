@@ -1,0 +1,111 @@
+- name: Installation of Required libraries and Softwares on VM0
+  hosts: vm0
+  become: yes
+  tasks:
+    - name: Install Grafana
+      yum:
+        name: grafana
+        state: present
+
+    - name: Start Grafana service
+      service:
+        name: grafana-server
+        state: started
+        enabled: yes
+
+    - name: Install Prometheus
+      yum:
+        name: prometheus
+        state: present
+
+    - name: Start Prometheus service
+      service:
+        name: prometheus
+        state: started
+        enabled: yes
+      # configure the yml file
+
+- name: Installation of Required Softwares on VM1
+  hosts: vm1
+  become: yes
+  tasks:
+    - name: Install Python
+      yum:
+        name: python3
+        state: present
+
+    - name: Install MySQL Server
+      yum:
+        name: mysql-server
+        state: present
+
+    - name: Start MySQL service
+      service:
+        name: mysqld
+        state: started
+        enabled: yes
+
+    - name: Install Node Exporter
+      yum:
+        name: node_exporter
+        state: present
+
+    - name: Start Node Exporter service
+      service:
+        name: node_exporter
+        state: started
+        enabled: yes
+
+    - name: Install MySQL Exporter
+      yum:
+        name: mysql_exporter
+        state: present
+
+    - name: Start MySQL Exporter service
+      service:
+        name: mysql_exporter
+        state: started
+        enabled: yes
+
+    - name: Install Jenkins
+      yum:
+        name: jenkins
+        state: present
+
+    - name: Start Jenkins service
+      service:
+        name: jenkins
+        state: started
+        enabled: yes
+
+    - name: Install Docker
+      yum:
+        name: docker
+        state: present
+
+    - name: Start Docker service
+      service:
+        name: docker
+        state: started
+        enabled: yes
+
+    - name: Install Kubernetes
+      yum:
+        name: kubelet
+        state: present
+
+    - name: Start Kubernetes service
+      service:
+        name: kubelet
+        state: started
+        enabled: yes
+
+    - name: Install MySQL Connector
+      yum:
+        name: mysql-connector
+        state: present
+
+    - name: Install Git
+      yum:
+        name: git
+        state: present

@@ -1,15 +1,14 @@
 # Stress_Testing_App
 
-The Stress Testing App is a powerful tool designed to evaluate and monitor the performance of various system resources, including memory, disk, CPU, network, and MySQL databases. 
-
+The Stress Testing App is a powerful tool designed to evaluate and monitor the performance of various system resources, including memory, disk, CPU, network, and MySQL databases. It leverages real-time metrics and threshold alerts to ensure optimal resource utilization, providing actionable insights for system performance tuning.
 # Features
 - Memory Stress Testing: Allocates memory and monitors its usage to assess stability.
 - Disk Performance Testing: Writes large files to measure disk I/O capabilities.
 - Network Stress Testing: Simulates heavy network traffic to evaluate bandwidth usage.
--  CPU Stress Testing: Performs intensive calculations to gauge CPU performance.
--   MySQL Database Testing: Executes SQL queries to analyze database load handling.
--   Driven Logging: Utilizes AI to provide insights on performance metrics.
--    WhatsApp Notifications: Sends real-time alerts and suggestions through WhatsApp.
+- CPU Stress Testing: Performs intensive calculations to gauge CPU performance.
+- MySQL Database Testing: Executes SQL queries to analyze database load handling.
+- Logging: Utilizes AI to provide insights on performance metrics.
+- WhatsApp Notifications: Sends real-time alerts and suggestions through WhatsApp.
 
 # Installation
 1. Clone the Repository:
@@ -49,10 +48,13 @@ python app.py
 docker exec -it stress_testing python app.py
 ```
 
+# Continuous Integration
+This project includes a Jenkinsfile to automate CI/CD processes, ensuring that every update is tested and deployed efficiently.
+
+
 # Logging and Alerts
 The application generates detailed logs of each test in stress_test.log. Additionally, you can enable WhatsApp notifications by configuring the send_to_whatsapp.py script with your Twilio account details.
 
-# Continuous Integration
-This project includes a Jenkinsfile to automate CI/CD processes, ensuring that every update is tested and deployed efficiently.
+
 
 

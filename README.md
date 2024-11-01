@@ -56,5 +56,5 @@ This project includes a Jenkinsfile to automate CI/CD processes, ensuring that e
 The application generates detailed logs of each test in stress_test.log. Additionally, you can enable WhatsApp notifications by configuring the send_to_whatsapp.py script with your Twilio account details.
 
 
-
+&copy;-Shaik Nageena
 

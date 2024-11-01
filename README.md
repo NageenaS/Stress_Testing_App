@@ -7,7 +7,7 @@ The Stress Testing App is a powerful tool designed to evaluate and monitor the p
 - Network Stress Testing: Simulates heavy network traffic to evaluate bandwidth usage.
 - CPU Stress Testing: Performs intensive calculations to gauge CPU performance.
 - MySQL Database Testing: Executes SQL queries to analyze database load handling.
-- Logging: Utilizes AI to provide insights on performance metrics.
+- Logging with AI Insights: Utilizes AI to provide insights on performance metrics.
 - WhatsApp Notifications: Sends real-time alerts and suggestions through WhatsApp.
 
 # Installation

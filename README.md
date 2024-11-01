@@ -11,7 +11,7 @@ The Stress Testing App is a powerful tool designed to evaluate and monitor the p
 - WhatsApp Notifications: Sends real-time alerts and suggestions through WhatsApp.
 
 # Installation
-1. Clone the Repository:
+1. ** Clone the Repository **:
 
 To get started, clone the repository to your local machine:
 ```

@@ -32,11 +32,11 @@ You can quickly deploy the application using Docker. Follow these steps:
 Pull the pre-built image:
 
 ```
-docker pull nageenashaik/stress_testing
+docker pull nageenashaik/stress-testing
 ```
 Start the container:
 ```
-docker run -d --name stress_testing nageenashaik/stress_testing
+docker run -d --name stress_testing nageenashaik/stress-testing
 ```
 4. **Executing Stress Tests**:
 - To begin your stress testing, run the following command:

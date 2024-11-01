@@ -48,3 +48,10 @@ If you're running it in a Docker container:
 ```
 docker exec -it stress_tester python app.py
 ```
+
+# Logging and Alerts
+The application generates detailed logs of each test in stress_test.log. Additionally, you can enable WhatsApp notifications by configuring the send_to_whatsapp.py script with your Twilio account details.
+
+# Continuous Integration
+This project includes a Jenkinsfile to automate CI/CD processes, ensuring that every update is tested and deployed efficiently.
+

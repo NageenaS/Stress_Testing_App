@@ -36,7 +36,7 @@ docker pull nageenashaik/stress-testing
 ```
 Start the container:
 ```
-docker run -d --name stress_testing nageenashaik/stress-testing
+docker run -d --name stress-testing nageenashaik/stress-testing
 ```
 4. **Executing Stress Tests**:
 - To begin your stress testing, run the following command:
@@ -45,7 +45,7 @@ python app.py
 ```
 - If you're running it in a Docker container:
 ```
-docker exec -it stress_testing python app.py
+docker exec -it stress-testing python app.py
 ```
 
 # Continuous Integration

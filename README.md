@@ -11,21 +11,21 @@ The Stress Testing App is a powerful tool designed to evaluate and monitor the p
 - WhatsApp Notifications: Sends real-time alerts and suggestions through WhatsApp.
 
 # Installation
-1. ** Clone the Repository **:
+1. **Clone the Repository**:
 
 To get started, clone the repository to your local machine:
 ```
 git clone https://github.com/NageenaS/Stress_Testing_App.git
 cd Stress_Testing_App
 ```
-2. Install Dependencies:
+2. **Install Dependencies**:
 
 Make sure to install the required Python libraries:
 ```
 pip install psutil mysql-connector-python
 pip install twilio
 ```
-3. Deploy with Docker :
+3. **Deploy with Docker** :
 
 You can quickly deploy the application using Docker. Follow these steps:
 
@@ -38,12 +38,12 @@ Start the container:
 ```
 docker run -d --name stress_testing nageenashaik/stress_testing
 ```
-4. Executing Stress Tests
-To begin your stress testing, run the following command:
+4. **Executing Stress Tests**:
+- To begin your stress testing, run the following command:
 ```
 python app.py
 ```
-5. If you're running it in a Docker container:
+- If you're running it in a Docker container:
 ```
 docker exec -it stress_testing python app.py
 ```

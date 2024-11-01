@@ -3,13 +3,13 @@
 The Stress Testing App is a powerful tool designed to evaluate and monitor the performance of various system resources, including memory, disk, CPU, network, and MySQL databases. 
 
 # Features
--- Memory Stress Testing: Allocates memory and monitors its usage to assess stability.
--- Disk Performance Testing: Writes large files to measure disk I/O capabilities.
--- Network Stress Testing: Simulates heavy network traffic to evaluate bandwidth usage.
--- CPU Stress Testing: Performs intensive calculations to gauge CPU performance.
--- MySQL Database Testing: Executes SQL queries to analyze database load handling.
--- AI-Driven Logging: Utilizes AI to provide insights on performance metrics.
--- WhatsApp Notifications: Sends real-time alerts and suggestions through WhatsApp.
+- Memory Stress Testing: Allocates memory and monitors its usage to assess stability.
+- Disk Performance Testing: Writes large files to measure disk I/O capabilities.
+- Network Stress Testing: Simulates heavy network traffic to evaluate bandwidth usage.
+-  CPU Stress Testing: Performs intensive calculations to gauge CPU performance.
+-   MySQL Database Testing: Executes SQL queries to analyze database load handling.
+-   Driven Logging: Utilizes AI to provide insights on performance metrics.
+-    WhatsApp Notifications: Sends real-time alerts and suggestions through WhatsApp.
 
 # Installation
 Clone the Repository:

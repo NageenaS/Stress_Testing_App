@@ -1,0 +1,10 @@
+2024-11-01 13:22:45,762 - INFO - Starting memory stress test.
+2024-11-01 13:22:49,094 - INFO - Memory stress test completed. Usage: 95.6%
+2024-11-01 13:23:30,422 - INFO - Starting disk stress test.
+2024-11-01 13:23:36,387 - INFO - Disk stress test completed. Usage: 47.4%
+2024-11-01 13:23:42,390 - INFO - Starting network stress test.
+2024-11-01 13:24:32,681 - INFO - Network stress test completed. Usage: 100%
+2024-11-01 13:24:38,978 - INFO - Starting CPU stress test.
+2024-11-01 13:25:10,012 - INFO - CPU stress test completed. Usage: 3.1%
+2024-11-01 13:25:15,761 - INFO - Starting MySQL stress test.
+2024-11-01 13:25:41,089 - INFO - MySQL stress test completed. CPU Usage: 0.0%, Memory Usage: 3.033539298700638%

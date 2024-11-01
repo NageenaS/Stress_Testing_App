@@ -1,4 +1,4 @@
-# Stress_Testing_App
+ # Stress_Testing_App
 
 The Stress Testing App is a powerful tool designed to evaluate and monitor the performance of various system resources, including memory, disk, CPU, network, and MySQL databases. It leverages real-time metrics and threshold alerts to ensure optimal resource utilization, providing actionable insights for system performance tuning.
 # Features
@@ -49,7 +49,7 @@ docker exec -it stress_testing python app.py
 ```
 
 # Continuous Integration
-This project includes a Jenkinsfile to automate CI/CD processes, ensuring that every update is tested and deployed efficiently.
+This project includes a Jenkinsfile to automate CI/CD processes through ngrok and webhooks, ensuring that every update is tested and deployed efficiently.
 
 
 # Logging and Alerts

@@ -33,11 +33,11 @@ You can quickly deploy the application using Docker. Follow these steps:
 Pull the pre-built image:
 
 ```
-docker pull nageenashaik/stress_testing_app
+docker pull nageenashaik/stress_testing
 ```
 Start the container:
 ```
-docker run -d --name stress_tester nageenashaik/stress_testing_app
+docker run -d --name stress_testing nageenashaik/stress_testing
 ```
 4. Executing Stress Tests
 To begin your stress testing, run the following command:
@@ -46,7 +46,7 @@ python app.py
 ```
 5. If you're running it in a Docker container:
 ```
-docker exec -it stress_tester python app.py
+docker exec -it stress_testing python app.py
 ```
 
 # Logging and Alerts
@@ -54,4 +54,5 @@ The application generates detailed logs of each test in stress_test.log. Additio
 
 # Continuous Integration
 This project includes a Jenkinsfile to automate CI/CD processes, ensuring that every update is tested and deployed efficiently.
+
 
